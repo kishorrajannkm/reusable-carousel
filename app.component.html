@@ -1,0 +1,10 @@
+<app-data-set-1></app-data-set-1>
+
+<app-data-set-2></app-data-set-2>
+
+
+<div *ngIf='contactList'>
+    <div *ngFor='let contact of contactList'>
+        {{contact.first_name }} - {{ contact.last_name}}
+    </div>
+</div>

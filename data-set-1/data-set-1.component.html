@@ -1,0 +1,10 @@
+<!-- <app-carousel-collection [dataInputs]='dataInputs' [viewCount]='viewCount'>
+    <app-carousel-item *ngFor='let item of dataInputs'>
+        {{item.value}}
+    </app-carousel-item>
+</app-carousel-collection> -->
+<carousel>
+    <carousel-item style='display:block'*ngFor='let item of items'>
+        <div> {{item}} </div>
+    </carousel-item>
+</carousel>
